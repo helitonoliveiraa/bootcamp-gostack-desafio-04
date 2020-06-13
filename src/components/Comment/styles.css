@@ -1,0 +1,42 @@
+div.comment {
+  margin-top: 20px;
+}
+
+div.comment + div.comment {
+  margin-top: 10px;
+}
+
+div.comment div.comment-content {
+  display: flex;
+  flex: 1;
+}
+
+div.comment div.comment-content + div {
+  margin-top: 10px;
+}
+
+div.comment div.comment-content img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+div.comment div.comment-content .text {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #EEEEEE;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.comment div.comment-content .text p {
+  margin: 0;
+  padding: 0;
+}
+div.comment div.comment-content .text p span {
+  font-weight: bold;
+  font-size: 13px;
+}
